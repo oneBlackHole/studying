@@ -1,12 +1,12 @@
 package com.szz.study.thread.spinlock;
-//×ÔĞıËø²âÊÔ
 
+//è‡ªæ—‹é”æµ‹è¯•
 import java.util.concurrent.TimeUnit;
 import java.util.concurrent.atomic.AtomicReference;
 
 public class Test01 {
 	
-	//Ô­×ÓÒıÓÃ
+	//åŸå­å¼•ç”¨
 	AtomicReference<Thread> atomicReference = new AtomicReference<Thread>();
 	
 	public void lock() {

@@ -11,17 +11,16 @@ import java.util.UUID;
 import java.util.concurrent.ConcurrentHashMap;
 import java.util.concurrent.CopyOnWriteArrayList;
 import java.util.concurrent.CopyOnWriteArraySet;
-import java.util.concurrent.locks.Condition;
 
-import javax.xml.stream.events.StartDocument;
 /**
- * Ïß³Ì²»°²µÄÒì³£
+ * é›†åˆå¤šçº¿ç¨‹å¹¶å‘å¼‚å¸¸
  * concurrentModifyException
  * 
- * µÚ1ÖÖ½â¾ö·½·¨
- * ¼¯ºÏ¹¤¾ßÀà£ºCollections
- * µÚ2ÖÖ½â¾ö·½·¨
- * Java.util.concurrent°üÏÂµÄÀà
+ * è§£å†³æ–¹æ³•
+ * ç¬¬1ç§ï¼šé›†åˆå·¥å…·ç±» à£ºCollections
+ * ç¬¬2ç§ï¼š
+ * jucåŒ…åŸå­å¼•ç”¨ç±»
+ * Java.util.concurrent
  * @author szz
  *
  */
